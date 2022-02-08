@@ -26,7 +26,7 @@ body {
 .login__card {
 	width: 420px;
 	height: 400px;
-	margin: 50px 100px ;
+	margin: 50px 80px ;
 	padding: 30px 20px;
 	text-align: center;
 }
@@ -41,8 +41,8 @@ margin-left: 25px;
 
 
 .login__card > input {
-	width: 320px;
-	height: 25px;
+	width: 340px;
+	height: 23px;
 	margin: 15px 0px 0px 0px;
 	background: #487270;
 	border: none;
@@ -58,7 +58,7 @@ margin-left: 25px;
 .login__card > button {
 	width: 200px;
 	height: 50px;
-	margin: 35px 0px 10px 0px;
+	margin: 55px 0px 10px 0px;
 	background: #dec584;
 	border-radius: 35px;
 	border: none;
@@ -69,6 +69,26 @@ margin-left: 25px;
     color: RGB(59, 60, 72);
 }
 
+.login__card > button:hover{
+	width: 200px;
+	height: 50px;
+	margin: 55px 0px 10px 0px;
+	background: #9e8c5d;
+	border-radius: 35px;
+	border: none;
+	font-size: larger;
+	font-weight: bold;
+	text-shadow: none;
+	padding: 10px 25px;
+    color: RGB(59, 60, 72);
+}
 a {
 	color: #487270 !important;
+}
+
+.login__valid{
+	position: absolute;
+	color: white;
+	font-size: 12px;
+	margin: 10px 20px;
 }
